@@ -1,257 +1,156 @@
-<script src="https://cdn.tailwindcss.com"></script>
-<div
-  class="relative text-gray-800 bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200"
->
-  <!-- Navbar -->
-  <header>
-    <nav
-      class="w-full bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200"
-    >
-      <div class="flex justify-between w-full px-16 py-8">
-        <!-- Left Nav -->
-        <div>
-          <ul
-            class="flex flex-col text-left md:flex-row md:space-y-0 md:space-x-6 text-xl md:text-2xl"
-          >
-            <li class="text-left">
-              <a href="#experience"> Experience </a>
-            </li>
-            <li class="text-left">
-              <a href="#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-        <!-- Right Nav -->
-        <div>
-          <!-- Socials -->
-          <ul
-            class="flex flex-col md:flex-row items-end md:items-center md:space-x-4 md:space-y-0"
-          >
-            <li>
-              <a
-                href="https://github.com/NguyenHuyu"
-                target="_blank"
-                aria-label="Github"
-                class="hover:text-blue-600"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-9 h-9"
-                  fill="currentColor"
-                  class="bi bi-github"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                  />
-                </svg>
-              </a>
-            </li>
+<link
+  rel="stylesheet"
+  href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+/>
 
-            <li>
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                aria-label="linkedin"
-                class="hover:text-blue-600"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-9 h-9 rounded-full"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- / Navbar -->
-  <!-- Name section -->
-  <section
-    class="flex flex-col items-center justify-center h-[40vh] bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r"
-  >
-    <!-- style="height: 50vh" -->
+<main class="profile-page">
+  <section class="relative block h-500-px">
     <div
-      class="flex flex-col items-center justify-center text-center h-screen-half"
+      class="absolute top-0 w-full h-full bg-center bg-cover"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80');
+      "
     >
-      <!-- image -->
-      <img
-        class="md:hidden object-cover w-15 h-40 rounded-full mb-5 ring-2 ring-gray-500/50 ring-offset-[10px]"
-        src="./src/279177516_1428884820863543_7274171001797166263_n.jpg"
-        alt="Your Name Here"
-      />
-      <h1 class="text-5xl sm:text-6xl lg:text-9xl text-black">
-        NGUYEN MINH HUY
-      </h1>
-      <h2 class="font-light text-4xl sm:text-5xl lg:text-8xl pt-10 text-zinc-300">
-        Frontend Developer
-      </h2>
+      <span
+        id="blackOverlay"
+        class="w-full h-full absolute opacity-50 bg-black"
+      ></span>
     </div>
-  </section>
-  <!-- /Name Section -->
-  <!-- image section -->
-  <section
-    class="flex items-center justify-between px-8 mb-20 tracking-wider "
-  >
-    <!-- Summary (left) -->
     <div
-      class="flex flex-col w-full md:w-1/3 space-y-12 text-center md:text-left"
+      class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+      style="transform: translateZ(0px)"
     >
-      <div class="flex flex-col px-10 md:px-20">
-        <h3 class="text-5xl font-bold">Skills</h3>
-        <br />
-        <span class="text-2xl">React JS</span>
-        <span class="text-2xl">Node JS</span>
-        <span class="text-2xl">TypeScript</span>
-        <span class="text-2xl">Tailwindcss</span>
-      </div>
-      <div class="px-10 md:px-20">
-        <br />
-        <h3 class="text-5xl font-bold">Contact</h3>
-        <a class="text-xl hover:text-blue-600" href="mailto:test@nomail.com"
-          >Email: yuhuynguyen.1204@gmail.com</a
-        >
-        <p>Phone: 0343350169</p>
-      </div>
-    </div>
-    <!-- image -->
-    <img
-      class="hidden md:block object-cover w-3/4 h-screen rounded-full ring-2 ring-gray-500/50 ring-offset-[30px]"
-      src="./src/z4204780651985_20346604e651bd2fbcd352ce06292aa1.jpg"
-      alt="Your Name Here"
-    />
-    <!-- statistics (right) -->
-    <div class="hidden md:flex flex-col w-1/3 space-y-12 text-right ">
-      <div class="px-20">
-        <h4 class="text-5xl font-bold">Experience</h4>
-        <br />
-        <p class="text-2xl">+1 years</p>
-      </div>
-      <div class="px-20">
-        <h4 class="text-5xl font-bold">Projects</h4>
-        <br />
-        <p class="text-2xl">+5</p>
-      </div>
-      <div class="px-20">
-        <h4 class="text-5xl font-bold">Clients</h4>
-        <br />
-        <p class="text-2xl">+1</p>
-      </div>
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-blueGray-200 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
     </div>
   </section>
-  <!-- /image section -->
-  <section class="px-20 mt-10 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900">
-    <hr class="border-gray-400 " />
-    <h4 class="mb-8 text-5xl font-bold text-center md:text-left">Experience</h4>
-
-    <div class="grid grid-cols-1 md:grid-cols-6 my-10">
-      <div class="flex flex-col col-span-2 mb-4 md:mb-0">
-        <h5 class="text-xl md:text-2xl font-bold">Full Stack Developer</h5>
-        <p >March 2023</p>
-      </div>
-      <div class="flex flex-col col-span-4">
-        <p class="text-2xl">
-          Project "Graduate Institute" at SIU
-        </p>
-      </div>
-    </div> 
-<hr>
-    <div class="grid grid-cols-1 md:grid-cols-6 my-10">
-      <div class="flex flex-col col-span-2 mb-4 md:mb-0">
-        <h5 class="text-xl md:text-2xl font-bold">Frontend Developer</h5>
-        <p >March 2023</p>
-      </div>
-      <div class="flex flex-col col-span-4 space-y-10">
-        <p class="text-2xl">
-          Internship at Nova E-Force
-( 3FORCOM ) company.
-        </p>
-        
-        <p class="text-2xl">
-          Project "Forgot password" at AIlab
-        </p>
-        <p class="text-2xl">
-          Project "Stage SIUBOT - Ari" at AIlab
-        </p>
-        <p class="text-2xl">
-          Project "Profile teacher" at AIlab
-        </p>
-      </div>
-    </div> 
-    <hr>
-    <section class="px-20 mt-10 pb-10">
-      <h4 class="mb-8 text-5xl font-bold text-center md:text-left">Education</h4>
-      <div class="grid grid-cols-1 md:grid-cols-6 my-10">
-        <div class="flex flex-col col-span-2 mb-4 md:mb-0">
-          <h5 class="text-xl md:text-2xl font-bold">Software Engineer</h5>
-          <h6 class="text-lg font-bold">The SaiGon International University</h6>
-          <p>Jan 2020</p>
+  <section class="relative py-16 bg-blueGray-200">
+    <div class="container mx-auto px-4">
+      <div
+        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+      >
+        <div class="px-6">
+          <div class="flex flex-wrap justify-center">
+            <div class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+              <div class="relative">
+                <img
+                  alt="..."
+                  src="./src/z4204780651985_20346604e651bd2fbcd352ce06292aa1.jpg"
+                  class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                />
+              </div>
+            </div>
+            <div
+              class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center"
+            >
+              <div class="py-6 px-3 mt-32 sm:mt-0">
+                <button
+                  class="bg-pink-500 active:bg-pink-600 text-white hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                  type="button"
+                >
+                  Email: yuhynguyen.1204@gmail.com
+                </button>
+              </div>
+            </div>
+            <div class="w-full lg:w-4/12 px-4 lg:order-1">
+              <div class="flex justify-center py-4 lg:pt-4 pt-8">
+                <div class="mr-4 p-3 text-center">
+                  <span
+                    class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+                  ></span
+                  ><span class="text-sm text-blueGray-400">
+                    <a href="https://www.facebook.com/nhyn.nmh/">
+                      Facebook</a
+                    ></span
+                  >
+                </div>
+                <div class="lg:mr-4 p-3 text-center">
+                  <span
+                    class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+                  ></span
+                  ><span class="text-sm text-blueGray-400">
+                    <a href="https://github.com/NguyenHuyu">Github</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-12">
+            <h3
+              class="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2"
+            >
+              NGUYEN MINH HUY
+            </h3>
+            <div
+              class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase"
+            >
+              <i
+                class="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"
+              ></i>
+              HCM CITY
+            </div>
+            <div class="mb-2 text-blueGray-600 mt-10">
+              <i class="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i
+              >Frontend Developer
+            </div>
+            <div class="mb-2 text-blueGray-600">
+              <i class="fas fa-university mr-2 text-lg text-blueGray-400"></i
+              >The SaiGon International University
+            </div>
+          </div>
+          <div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+            <div class="flex flex-wrap justify-center">
+              <div class="w-full lg:w-9/12 px-4">
+                <div class="grid grid-cols-1 md:grid-cols-6 my-10">
+                  <div class="flex flex-col col-span-2 mb-4 md:mb-0">
+                    <h5 class="text-xl md:text-2xl font-bold">
+                      Full Stack Developer
+                    </h5>
+                    <p>March 2023</p>
+                  </div>
+                  <div class="flex flex-col col-span-4">
+                    <p class="text-xl">Project "Graduate Institute" at SIU</p>
+                  </div>
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div class="grid grid-cols-1 md:grid-cols-6 my-10">
+                  <div class="flex flex-col col-span-2 mb-4 md:mb-0">
+                    <h5 class="text-xl md:text-2xl font-bold">
+                      Frontend Developer
+                    </h5>
+                    <p>March 2023</p>
+                  </div>
+                  <div class="flex flex-col col-span-4 space-y-10">
+                    Internship at Nova E-Force ( 3FORCOM ) company.
+                    <br />
+                    Project "Forgot password" at AIlab <br />
+                    Project "Stage SIUBOT - Ari" at AIlab <br />
+                    Project "Profile teacher" at AIlab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- <div class="flex flex-col col-span-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            eveniet deleniti tempore veritatis adipisci accusantium voluptatibus
-            vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-            laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Animi non incidunt voluptates molestiae delectus nulla quisquam
-            aperiam voluptas tempora distinctio! Ipsa cupiditate harum voluptates
-            praesentium. Suscipit itaque officiis odio ut!
-          </p>
-        </div> -->
-      </div>
-    </section>
-    <!-- <div class="grid grid-cols-1 md:grid-cols-6 my-10">
-      <div class="flex flex-col col-span-2 mb-4 md:mb-0">
-        <h5 class="text-xl md:text-2xl font-bold">Software Developer</h5>
-        <h6 class="text-lg font-bold">Google</h6>
-        <p>Feb 2010 - Jan 2015</p>
-      </div>
-      <div class="flex flex-col col-span-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          eveniet deleniti tempore veritatis adipisci accusantium voluptatibus
-          vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-          laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Animi non incidunt voluptates molestiae delectus nulla quisquam
-          aperiam voluptas tempora distinctio! Ipsa cupiditate harum voluptates
-          praesentium. Suscipit itaque officiis odio ut!
-        </p>
-      </div>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-6 my-10">
-      <div class="flex flex-col col-span-2 mb-4 md:mb-0">
-        <h5 class="text-xl md:text-2xl font-bold">Web Developer</h5>
-        <h6 class="text-lg font-bold">IBM</h6>
-        <p>Apr 2008 - Feb 2010</p>
-      </div>
-      <div class="flex flex-col col-span-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-          eveniet deleniti tempore veritatis adipisci accusantium voluptatibus
-          vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-          laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Animi non incidunt voluptates molestiae delectus nulla quisquam
-          aperiam voluptas tempora distinctio! Ipsa cupiditate harum voluptates
-          praesentium. Suscipit itaque officiis odio ut!
-        </p>
       </div>
     </div>
   </section>
-  <hr class="border-gray-400 mx-44" />
-
-  <footer
-    class="absolute w-full h-36 bottom-0 p-8 px-16 bg-gray-800 text-gray-50"
-  >
-    <p class="text-2xl">Thank you for checking out my portfolio</p>
-    <a class="text-lg" href="mailto:mail@you.com">mail@you.com</a>
-  </footer>
-  <div class="h-80"></div>  -->
-</div>
+</main>
